@@ -22,8 +22,6 @@ def process_data(data):
     """
     totalsum = 0
     for items in data:
-       totalsum += items
-    avg = totalsum/len(data)
-    return totalsum, float(avg)
-
-
+        totalsum += items
+    avg = totalsum/float(len(data))
+    return totalsum, avg

@@ -5,4 +5,4 @@
 from data import DIRECTIONS
 
 
-DIRECTIONS[:3] += ('West', )
+DIRECTIONS = DIRECTIONS[:3] + ('West', )
